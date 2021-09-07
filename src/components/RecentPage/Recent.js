@@ -4,7 +4,6 @@ import one from "../../assets/images/recently/1.png"
 import two from "../../assets/images/recently/2.png"
 import three from "../../assets/images/recently/3.png"
 import four from "../../assets/images/recently/4.png"
-import { Button } from '@material-ui/core'
 import StarIcon from '@material-ui/icons/Star';
 const Recent = () => {
     return (
@@ -15,7 +14,7 @@ const Recent = () => {
             <div style={{ display: 'flex', justifyContent: 'center' }}>
 
                 <div className="containerOne" >
-                    <img src={one} />
+                    <img alt="1" src={one} />
                     <h5>Rent a great, complete tama
                         drum set</h5>
                     <div style={{ marginTop: '20px', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
@@ -39,7 +38,7 @@ const Recent = () => {
 
 
                 <div className="containerOne" >
-                    <img src={two} />
+                    <img alt="" src={two} />
                     <h5>Bluthner grand piano - Rent a grand piano</h5>
                     <div style={{ marginTop: '20px', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
                         <p> <span className="aed">AED6500</span>/Day</p>
@@ -61,7 +60,7 @@ const Recent = () => {
                 </div>
 
                 <div className="containerOne" >
-                    <img src={three} />
+                    <img alt="" src={three} />
                     <h5>Rent this large arabic tent - Arabian tent</h5>
                     <div style={{ marginTop: '20px', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
                         <p> <span className="aed">AED900</span>/Day</p>
@@ -81,7 +80,7 @@ const Recent = () => {
                     </div>
                 </div>
                 <div className="containerOne" >
-                    <img src={four} />
+                    <img alt="" src={four} />
                     <h5>Rent a laney speaker for guitars, microphones, keyboards, or any aux input</h5>
                     <div style={{ marginTop: '20px', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
                         <p> <span className="aed">AED900</span>/Day</p>

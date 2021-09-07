@@ -4,7 +4,6 @@ import MenuIcon from '@material-ui/icons/Menu';
 import logo from "../../assets/images/logo.png"
 import "./NavBar.css"
 import LanguageSelect from './LanguageSelect';
-import { Button } from '@material-ui/core';
 
 
 export default function SearchAppBar() {

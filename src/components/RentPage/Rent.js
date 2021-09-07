@@ -11,15 +11,15 @@ const Rent = () => {
             </div>
             <div style={{ display: 'flex', justifyContent: 'space-around' }}>
                 <div>
-                    <img className="img" src={Rectangle72} />
+                    <img alt="" className="img" src={Rectangle72} />
                     <h4>Outdoor & Recreational</h4>
                 </div>
                 <div>
-                    <img className="img" src={Group27} />
+                    <img alt="" className="img" src={Group27} />
                     <h4>Events & Parties</h4>
                 </div>
                 <div>
-                    <img className="img" src={Rectangle68} />
+                    <img alt="" className="img" src={Rectangle68} />
                     <h4>Spaces</h4>
                 </div>
             </div>

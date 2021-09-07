@@ -1,0 +1,25 @@
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffff;
+  border: none;
+}
+.navLeft {
+  display: flex;
+  width: 30%;
+  justify-content: space-around;
+  align-items: center;
+}
+.navButton {
+  width: 166px;
+  height: 48px;
+  background: #ff485c !important;
+  border-radius: 10px;
+  text-align: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  color: #ffff;
+  line-height: 20px;
+  border: none;
+}

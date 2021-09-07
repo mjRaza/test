@@ -1,0 +1,60 @@
+.containerOne {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 4px 20px 3px rgba(0, 0, 0, 0.06);
+}
+.containerOne .aed {
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 100%;
+  /* or 35px */
+  margin: 0px;
+  color: #f80137;
+}
+.containerOne img {
+  width: 343.77px;
+  height: 280.45px;
+
+  border-radius: 15px 15px 0px 0px;
+}
+.containerOne h5 {
+  width: 349.11px;
+  height: 27.01px;
+  margin-top: 10px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 95%;
+  /* or 25px */
+
+  color: #000000;
+}
+.containerOne .btn {
+  width: 130.04px;
+  height: 21px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 129%;
+  /* or 17px */
+
+  color: #605f5f;
+}
+.containerOne .rentBtn {
+  width: 250.77px;
+  height: 40px;
+  background: #02d6e0;
+  border-radius: 10px;
+  border: none;
+  color: #fff;
+}
+.buttonContainer {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  text-align: center;
+}
